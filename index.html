@@ -37,21 +37,25 @@
 
           <div class="cover-container">
             <ul class="nav nav-tabs" role="tablist">
-              <li class="active"><a href="#redes" role="tab" data-toggle="tab">Twitter</a></li>
+              <li class="active"><a href="#radio" role="tab" data-toggle="tab">Radio</a></li>
+              <li ><a href="#twiter" role="tab" data-toggle="tab">Twitter</a></li>
               <li><a href="#noticias" role="tab" data-toggle="tab">Últimas Noticias</a></li>
-              <li>
-                <audio controls preload>
-                    <source src="http://s30.myradiostream.com:17976/;stream.nsv&type=mp3" />
-                </audio>
-              </li>
+
             </ul>
 
             <!-- Tab panes -->
             <div class="tab-content">
-              <div class="tab-pane in active" id="redes">
+              <div class="tab-pane in active" id="radio">
+
+                  <audio controls preload>
+                      <source src="http://s30.myradiostream.com:17976/;stream.nsv&type=mp3" />
+                  </audio>
+
+              </div>
+              <div class="tab-pane" id="twiter">
 
                   <a class="twitter-timeline active" href="https://twitter.com/LiveInParaguay" data-widget-id="526074748787118080">Tweets por @LiveInParaguay</a>
-                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs"); </script>
 
 
               </div>
