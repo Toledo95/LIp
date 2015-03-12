@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(26, 26, 26);
+  font: 400 1em/1.38 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.-radio {
+  display: block;
+  float: left;
+  width: 15.8273381294%;
+  margin-top: 6px;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.-rss {
+  display: block;
+  float: left;
+  width: 21.2949640287%;
+  margin: 6px 0 0 2.8777%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.-twiter {
+  display: block;
+  float: left;
+  width: 16.4028776978%;
+  margin: 6px 0 0 1.58273%;
+  border-radius: 3px;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.botones {
+  position: relative;
+  float: left;
+  z-index: 3;
+  width: 99.2857142857%;
+  margin: 107px 0 0 0.71429%;
+}
+
+.container {
+  position: relative;
+  float: left;
+  z-index: 5;
+  width: 100%;
+  max-width: 700px;
+  height: 205px;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  bottom: 97px;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  width: 98.5714285714%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 97.2857142857%;
+  height: 127px;
+  margin: -62px 0 0 1%;
+  overflow: hidden;
+}
