@@ -1,0 +1,28 @@
+{
+  "name": "LiveInParaguay",
+  "version": "0.1",
+  "homepage": "https://github.com/Toledo95/LIp",
+  "authors": [
+    "guillermojmc <guillermojmc@gmail.com>"
+  ],
+  "description": "radio online",
+  "main": "index.html",
+  "keywords": [
+    "radio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "bootstrap-player": "https://github.com/WilliamRandol/bootstrap-player.git",
+    "jplayer": "~2.7.1",
+    "font-awesome": "~4.2.0"
+  }
+}

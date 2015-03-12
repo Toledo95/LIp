@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+
+<!-- Website Design By: www.happyworm.com -->
+<title>Demo : jPlayer as a text based audio player</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+<!-- mi fork -->
+<link href="components/bootstrap-player/css/bootstrap-player.css" rel="stylesheet">
+
+<style>
+ 	@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+ 	body {
+ 		font-family: 'Open Sans', Helvetica;
+ 		font-weight: 400;
+ 	}
+ 	h1 {
+ 		font-weight: 700;
+ 	}
+
+ 	.playa .btn {
+ 		border:0;
+ 	}
+
+	.playa .btn:hover {
+ 		background: transparent;
+ 	}
+</style>
+
+</head>
+<body>
+
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="https://github.com/duanewilson/bootstrap-player"><strong><i class="fa fa-github fa-lg"></i> duanewilson / bootstrap-player</strong></a>
+			</div>
+		</div> <!-- /container-fluid -->
+	</div> <!-- /navbar > container -->
+
+	<div class="container">
+		<div class="row">
+
+			<h1>Minimalist Player</h1>
+			<p class="lead">Just the bits you want, IMHO</p>
+			<hr>
+			<br>
+
+			<div id="demo" class="row-audio clearfix center-block text-center">
+
+				<!-- Start: You need these bits... -->
+				<!-- <audio controls>
+					<source src="https://archive.org/download/Twiddle2014-09-25/Twiddle2014-9-25Track10.ogg" type="audio/ogg" />
+					<source src="https://ia801404.us.archive.org/22/items/Twiddle2014-09-25/Twiddle2014-9-25Track10.mp3" type="audio/mpeg" />
+					<a href="https://ia801404.us.archive.org/22/items/Twiddle2014-09-25/Twiddle2014-9-25Track10.mp3">La Bamba</a>
+				</audio> -->
+				<!-- End: You need these bits... -->
+
+
+
+				<!-- <audio controls
+					data-info-album-art="http://farm5.staticflickr.com/4050/4353986539_ec89b52698_d.jpg"
+					data-info-album-title="8874"
+					data-info-artist="Billy Murray"
+					data-info-title="Come, take a trip in my air-ship"
+					data-info-label="Edison Gold Moulded Record"
+					data-info-year="1905"
+					data-info-att="University of California, Santa Barbara Library."
+					data-info-att-link="http://cylinders.library.ucsb.edu/search.php?query=8874">
+
+					<source src="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.ogg" type="audio/ogg" />
+					<source src="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.mp3" type="audio/mpeg" />
+					<a href="http://www.lost-letters.com/wp-content/uploads/2013/02/cusb-cyl2985d.mp3">cusb_cyl2985d</a>
+				</audio>
+
+				<audio controls>
+					<source src="http://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+					<source src="http://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+					<a href="http://www.w3schools.com/html/horse.mp3">horse</a>
+				</audio> -->
+
+
+
+
+
+
+
+
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+
+		    <section class="btn-group">
+		        <button class="btn btn-default span1">
+		        	<i class="fa fa-play"></i>
+		        </button>
+
+		        <div class="btn btn-default  disabled span4">
+		            <input type="range" min="0" value="0" class="seek" max="138.527347" step="1.38527347" style="background: -webkit-linear-gradient(left, rgb(223, 240, 216) 0%, rgb(223, 240, 216) 0%, rgba(223, 240, 216, 0) 0%, rgba(217, 237, 247, 0) 0%, rgb(217, 237, 247) 0%, rgb(217, 237, 247) 100%, rgba(217, 237, 247, 0) 100%) rgb(221, 221, 221);">
+		        </div>
+
+		        <a class="btn btn-default span3" data-original-title="Click to Reset<hr style=&quot;padding:0; margin:0;&quot; />Position: 00:00" title="">02:18</a>
+
+		        <button class="btn btn-default span1">
+		        	<i class="fa fa-volume-up"></i>
+		        </button>
+
+		        <div class="btn btn-default disabled span3">
+		            <input type="range" min="0" max="1" step="0.01" value="1">
+		        </div>
+		    </section>
+
+	    </div> <!-- col-md-12 -->
+	  </div> <!-- row -->
+  </div> <!-- container -->
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+
+			<br>
+			<hr>
+			<p>
+				<small class="text-muted">La Bamba by Twiddle : Live at Vermont Technical College on 2014-09-25 (September 25, 2014)</small>
+			</p>
+
+		</div>
+	</div>
+
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/jplayer/jquery.jplayer/jquery.jplayer.js"></script>
+	<script src="https://raw.githubusercontent.com/fryn/html5slider/gh-pages/html5slider.js"></script>
+
+	<!-- mi fork -->
+	<script src="components/bootstrap-player/js/bootstrap-player.js"></script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	$(document).ready(function(){
+
+
+	});
+	//]]>
+	</script>
+</body>
+</html>

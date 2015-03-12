@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap-player",
+  "homepage": "https://github.com/WilliamRandol/bootstrap-player",
+  "_release": "065273ee7e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "065273ee7e7bff6f2ae9e993674d95e70df93077"
+  },
+  "_source": "https://github.com/WilliamRandol/bootstrap-player.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/WilliamRandol/bootstrap-player.git"
+}
